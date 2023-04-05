@@ -1,0 +1,9 @@
+1. why docker what can it do ? 
+- conrainerize application - completely issolated env like a new vm.
+- Run each services with its own dependencies in seperate containers.
+
+2. What are containers? 
+completely issolated env like a new vm. 
+
+3. what is operating system ? 
+os (ubuntu) comes with os kernal ( interactive with underlying software)
