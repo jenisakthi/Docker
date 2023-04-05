@@ -12,3 +12,9 @@ os (ubuntu) comes with os kernal ( interactive with underlying software)
 light weight its size is in mb's.
 we can scale them as required. 
 
+5. What is docker image:
+- image is a package / template / plan
+- we can run multiple container using one image.
+
+6. Docker in devops:
+- docker file creates image for application in such a way that it runs in same way everywhere. 
