@@ -18,3 +18,22 @@ we can scale them as required.
 
 6. Docker in devops:
 - docker file creates image for application in such a way that it runs in same way everywhere. 
+
+7. docker editions: 
+- community edition -> available on linux,mac,windows,cloud like aws.
+- enterprise edition 
+
+8. Basic docker commands: 
+
+Run - start a container.
+ps - list containers.
+ps -a - list the exited container.
+stop containername - stops the container.
+docker images - list the available images.
+rmi - remove docker images -> make sure container is stopped. 
+pull - download the image from dockerhub.
+
+
+
+
+
