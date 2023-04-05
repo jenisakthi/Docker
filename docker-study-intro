@@ -7,3 +7,8 @@ completely issolated env like a new vm.
 
 3. what is operating system ? 
 os (ubuntu) comes with os kernal ( interactive with underlying software)
+
+4. container vs virtual machines: 
+light weight its size is in mb's.
+we can scale them as required. 
+
