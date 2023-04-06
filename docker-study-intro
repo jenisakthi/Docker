@@ -32,9 +32,13 @@ stop containername - stops the container.
 docker images - list the available images.
 rmi - remove docker images -> make sure container is stopped. 
 pull - download the image from dockerhub / only pull and doesnt run.
-
 docker run ubuntu sleep 5 ->
 -> container is not used to host os, it is used to execute the application like webservices. when application is failed container fails. 
+docker exec containername cat /etc/hosts -> simply cats the content.
+Run - attach and detech -> -d for detached mode to run application in background. 
+docker attach cont_id -> to run in attached mode. 
+
+Demo: 
 
 
 
