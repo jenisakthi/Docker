@@ -40,6 +40,31 @@ docker attach cont_id -> to run in attached mode.
 
 Demo: 
 
+docker tags:
+
+used to download the perticilar version on image. redid 2.2.5
+default tag is latest.
+
+docker ports:
+docker run -p 5000:80 application
+
+
+docker volume - data presistent in docker.
+
+for example mysql data in docker container . if container is stoped and removed then we will lose all the datas as well. 
+in docker container mysql data is stored in /var/lib/mysql
+
+so , docker run -v /opt/data:/var/lib/mysql mysql.
+
+mount the external directoy to the folder inside docker container. 
+
+docker Inspect container: to knoe the details of the container.. 
+
+docker inspect container_name
+docker logs container_name
+
+
+
 
 
 
