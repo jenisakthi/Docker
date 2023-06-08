@@ -65,6 +65,22 @@ docker logs container_name
 
 
 
+Docker Images: 
+Before that, why would you need to create your own image?
+It could either be because you cannot find a component or a service that you want to use as part of
+your application on Docker Hub already or you and your team decided that the application you're developing
+will be authorized for ease of shipping and deployment.
+
+Dockerfile:
+Docker file is a text file written in a specific format that Docker can understand.
+It's in an instruction and argument format.
+
+
+FROM ubuntu -> what is the base image for this container, every docker container will have base image.
+RUN -> The run instruction instructs Docker to run a particular command on those base images.(install dependencies of image) 
+COPY . /opt/myimage -> Then the copy instruction copies files from the local system onto the Docker image.
+In this case, the source code of our application is in the current folder and I will be copying it
+over to the location open source code inside the Docker image.
 
 
 
